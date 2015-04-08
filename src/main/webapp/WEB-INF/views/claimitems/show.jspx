@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_inertia_solutions_claims_mvc_domain_ClaimItem" object="${claimitem}" path="/claimitems" z="pzLZncWqfJSYB2gB7TsAXpuLZ5k=">
+        <field:display field="id" id="s_com_inertia_solutions_claims_mvc_domain_ClaimItem_id" object="${claimitem}" z="tMAWx9lCtRncHc9RHrVVeZW6p54="/>
+        <field:display field="claimItemName" id="s_com_inertia_solutions_claims_mvc_domain_ClaimItem_claimItemName" object="${claimitem}" z="3/qJ4RefsxN3uZOrYNMqY7UPsXw="/>
+        <field:display field="claimItemDesc" id="s_com_inertia_solutions_claims_mvc_domain_ClaimItem_ClaimItemDesc" object="${claimitem}" z="JxVKX9+5IgfryG0QL1LDHkWhR/M="/>
+        <field:display field="claimItemAmount" id="s_com_inertia_solutions_claims_mvc_domain_ClaimItem_claimItemAmount" object="${claimitem}" z="1uSkiUzWpmlkLYImyN9o8c5K/fU="/>
+    </page:show>
+</div>

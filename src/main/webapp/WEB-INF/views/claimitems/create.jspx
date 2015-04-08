@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_inertia_solutions_claims_mvc_domain_ClaimItem" modelAttribute="claimItem" path="/claimitems" render="${empty dependencies}" z="UY7+OC7nk9L53PcOmTOx66diueE=">
+        <field:input field="id" id="c_com_inertia_solutions_claims_mvc_domain_ClaimItem_id" z="H2Xyl3kCHUJGZrfnMoP6EgD1HYw="/>
+        <field:input field="claimItemName" id="c_com_inertia_solutions_claims_mvc_domain_ClaimItem_claimItemName" z="BJri7DnvD3eKmEhZFRbmDwdL8gw="/>
+        <field:input field="ClaimItemDesc" id="c_com_inertia_solutions_claims_mvc_domain_ClaimItem_ClaimItemDesc" z="GIridTVLN8ZpCm5rgqM1gmj4fvQ="/>
+        <field:input field="claimItemAmount" id="c_com_inertia_solutions_claims_mvc_domain_ClaimItem_claimItemAmount" validationMessageCode="field_invalid_number" z="DyMuK8gJ52dkOW70TsZ8kzfhDqE="/>
+        <field:input field="id_" id="c_com_inertia_solutions_claims_mvc_domain_ClaimItem_id_" required="true" validationMessageCode="field_invalid_integer" z="iAobrOm6pedCdb/54JkTVJOb2kw="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_inertia_solutions_claims_mvc_domain_ClaimItem" render="${not empty dependencies}" z="kNryc5JIgEg8mnZ4Mdaqk4/P7fA="/>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_inertia_solutions_claims_mvc_domain_Claim" items="${claims}" z="DPYk+lyIqSmdKPvigX996LAKs1E=">
+        <table:table data="${claims}" id="l_com_inertia_solutions_claims_mvc_domain_Claim" path="/claims" typeIdFieldName="id_" z="O5KDos2/feeZIjbxLZ269vowVVQ=">
+            <table:column id="c_com_inertia_solutions_claims_mvc_domain_Claim_id" property="id" z="ZIPxchSxPHxV1urtATG2azbF1Ow="/>
+            <table:column id="c_com_inertia_solutions_claims_mvc_domain_Claim_userId" property="userId" z="9TGkYRrZT0smJlzMFIoPmHiIbl8="/>
+            <table:column id="c_com_inertia_solutions_claims_mvc_domain_Claim_claimTotal" property="claimTotal" z="9mBWTscdAFcLisIePdjXtQmbT4g="/>
+            <table:column id="c_com_inertia_solutions_claims_mvc_domain_Claim_claimCurrentTotal" property="claimCurrentTotal" z="y5ch6Aef63RE4xuFo5PTasCDQ6Y="/>
+            <table:column id="c_com_inertia_solutions_claims_mvc_domain_Claim_claimItems" property="claimItems" z="qO3WoFJJBbwTC0HgCj+cZRnb0kA="/>
+        </table:table>
+    </page:list>
+</div>

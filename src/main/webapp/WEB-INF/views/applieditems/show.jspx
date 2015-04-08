@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_inertia_solutions_claims_mvc_domain_AppliedItem" object="${applieditem}" path="/applieditems" z="zA+/kIhO2O0rrKv0cZyvZDcO6aY=">
+        <field:display field="id" id="s_com_inertia_solutions_claims_mvc_domain_AppliedItem_id" object="${applieditem}" z="n8rjRDMi9VkH9V9T2/oltOTCHj4="/>
+        <field:display field="appliedItemName" id="s_com_inertia_solutions_claims_mvc_domain_AppliedItem_appliedItemName" object="${applieditem}" z="ZTxN0dI7Usi4MuOWNgTDGfCO7uc="/>
+        <field:display field="appliedItemDesc" id="s_com_inertia_solutions_claims_mvc_domain_AppliedItem_appliedItemDesc" object="${applieditem}" z="8ozVa31a8GJhuJfdlUVJk6Jqzws="/>
+        <field:display field="appliedItemAmount" id="s_com_inertia_solutions_claims_mvc_domain_AppliedItem_appliedItemAmount" object="${applieditem}" z="VeFjXD8WDJGDyTKn1hNbpQejXL4="/>
+        <field:display field="claimType" id="s_com_inertia_solutions_claims_mvc_domain_AppliedItem_claimType" object="${applieditem}" z="DMImJi1wwwmO19JK4Hzw6/+s/Fk="/>
+    </page:show>
+</div>

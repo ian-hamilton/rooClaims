@@ -1,0 +1,45 @@
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-04-07 15:07:24
+hint
+project --topLevelPackage com.inertia.solutions.claims.mvc
+hint
+hint
+mongo setup 
+mongo setup 
+exit
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-04-07 20:57:19
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-04-07 20:57:57
+mongo setup 
+mongo setup 
+mongo setup 
+entity mongo --class ~.domain.Claim
+field string id
+field string userId
+field number --type java.lang.Double claimTotal
+field number --type java.lang.Double claimCurrentTotal
+!
+// [failed] */
+entity mongo --class ClaimItem
+field string id
+field string claimItemName
+field string ClaimItemDesc
+field number --type java.lang.Double claimItemAmount
+entity mongo --class AppliedItem
+field string id
+field string appliedItemName
+field string appliedItemDesc
+field number --type java.lang.Double appliedItemAmount
+// [failed] enum constant --name claimType
+enum type --class ClaimType
+enum constant --name PROPERTY
+enum constant --name BUILDING
+focus --class AppliedItem
+field enum --type ClaimType claimType
+focus --class Claim
+field set --fieldName claimItems --type ClaimItem
+// [failed] repository mongo --interface ~.repository.ClaimRepository --entity ~.domain.Claim
+service type --interface ~.service.ClaimService --entity ~.domain.Claim
+web mvc setup
+web mvc all --package ~.web
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-04-07 21:47:33
+json all 
+web mvc json all
